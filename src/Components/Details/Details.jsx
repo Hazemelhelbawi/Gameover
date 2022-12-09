@@ -55,7 +55,7 @@ export default function Details() {
   <div className="col-md-12">
                 <div className="d-flex align-items-center justify-content-center mt-5">
                   
-                <span className="loader">Load&nbsp;ng</span>
+                <span className="loader"></span>
                 </div>
               </div>
 
