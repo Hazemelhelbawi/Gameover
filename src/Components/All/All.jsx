@@ -1,6 +1,8 @@
 import axios from 'axios';
   import { useState,useEffect,useRef } from 'react';
 import { Link } from 'react-router-dom';
+import {Helmet} from "react-helmet";
+
 import './All.css'  
 
   export default function All() {
@@ -51,7 +53,11 @@ import './All.css'
     return (
   <>
 
-
+<Helmet>
+         <meta charSet="utf-8" />
+        <title>All</title>
+      
+         </Helmet>
 
   <div className="container py-4">
     <div className="row pt-5">

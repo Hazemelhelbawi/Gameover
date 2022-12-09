@@ -1,6 +1,8 @@
 import axios from 'axios';
 import { useState,useEffect , useRef} from 'react';
 import { Link } from 'react-router-dom'
+import {Helmet} from "react-helmet";
+
 import './Home.css'
 export default function Home() {
 
@@ -50,6 +52,11 @@ const dataOptions=()=>{
 
   return (
       <>
+                  <Helmet>
+         <meta charSet="utf-8" />
+        <title>SortBy</title>
+      
+         </Helmet>
     <section className='w-100 '>
       <div className='HomebgPage '>
       <div className='layerHome py-2'>
