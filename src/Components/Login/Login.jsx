@@ -10,6 +10,7 @@ export default function Login({saveUser}) {
   const [loading,setLoading]=useState(true)
   const [errorMsg,setErrorMsg]=useState('')
   const [validationError,setvalidationError]=useState([])
+
   let navigate = useNavigate()
 let [user,setUser]=useState({
   email:"",
@@ -28,7 +29,7 @@ async function register(e) {
   setLoading(false)
   e.preventDefault()
   if(validationUser()){
- let {data}= await axios.post('https:/sticky-note-fe.vercel.app/signin',user)
+    let {data}= await axios.post('https://sticky-note-fe.vercel.app/signin',user)
   let respone = data        
   
   if (respone.message==='success'){

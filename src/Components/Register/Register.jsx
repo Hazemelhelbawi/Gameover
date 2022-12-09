@@ -33,7 +33,7 @@ async function register(e) {
   setLoading(false)
   e.preventDefault()
   if(validationUser()){
- let {data}= await axios.post('https:/sticky-note-fe.vercel.app/signup',user)
+ let {data}= await axios.post('https://sticky-note-fe.vercel.app/signup',user)
   let respone = data        
   
   if (respone.message==='success'){
