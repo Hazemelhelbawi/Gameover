@@ -17,7 +17,7 @@ export default function Alphabetical() {
 
     const options = {
         method: 'GET',
-        url: `https:free-to-play-games-database.p.rapidapi.com/api/games?sort-by=${params.sortby}`,
+        url: `https://free-to-play-games-database.p.rapidapi.com/api/games?sort-by=${params.sortby}`,
         headers: {
           'X-RapidAPI-Key': '4f1c54e50dmshf91ed5579504681p1d01aajsna895d78fad75',
           'X-RapidAPI-Host': 'free-to-play-games-database.p.rapidapi.com'
