@@ -1,0 +1,8 @@
+.card-info:hover{
+    transform: scale(1.03);
+    
+    }
+    .card-info{
+        transition: all 1s;
+    
+    }
