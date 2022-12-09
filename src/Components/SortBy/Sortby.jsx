@@ -52,7 +52,7 @@ tempOptions.current=dataOptions
         <title>SortBy</title>
       
          </Helmet>
-    <div className="container py-4">
+         <div className="container py-4">
     <div className="row pt-5">
         {isLoading && 
         (      <div className="col-md-12">
@@ -85,7 +85,6 @@ tempOptions.current=dataOptions
         <i className="fa-solid fa-square-plus "></i>
         <div >
         <span className='bg-secondary rounded-pill px-1 mx-1'>{item.genre}</span> 
-      
       {item.platform ==='PC (Windows)'?<i className=" fa-brands fa-windows"></i>
               :<i className=" fa-solid fa-window-maximize"></i>}
         </div>
