@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react'
 import { useParams } from 'react-router-dom'
 import axios from "axios";
 import {Link} from "react-router-dom";
+import {Helmet} from "react-helmet";
 
 // import React, { useEffect } from 'react'
 
@@ -48,6 +49,12 @@ export default function Details() {
       
   return (
     <>
+
+<Helmet>
+         <meta charSet="utf-8" />
+        <title>{gameDetail.title}</title>
+      
+         </Helmet>
   <div className="container">
 <div className="row pt-5">
 {isLoading && (<>
