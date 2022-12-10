@@ -53,7 +53,7 @@ export default function Shooter() {
 
         <Helmet>
          <meta charSet="utf-8" />
-        <title>Platform</title>
+        <title>Categories</title>
       
       </Helmet>
 <div className="container py-4">

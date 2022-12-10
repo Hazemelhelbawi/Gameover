@@ -54,7 +54,7 @@ const dataOptions=()=>{
       <>
                   <Helmet>
          <meta charSet="utf-8" />
-        <title>SortBy</title>
+        <title>Home</title>
       
          </Helmet>
     <section className='w-100 '>
